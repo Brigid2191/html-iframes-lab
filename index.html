@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>My Awesome Company Contact Page</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walkies, Inc. - Contact Us</title>
+</head>
+<body>
 
-    <h1>Company Inc.</h1>
-    <h2>For all your incorporated company needs</h2>
+  <!-- Contact Form -->
+  <form action="#" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter Name" required>
+    <br>
 
-    <!-- Create an iframe tag-->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+    <br>
 
-  </body>
+    <label for="phone">Telephone Number (optional):</label>
+    <input type="tel" id="phone" name="telephone" placeholder="Enter Telephone (optional)">
+    <br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Enter Message" required></textarea>
+    <br>
+
+    <label for="checkbox">Subscribe to newsletter:</label>
+    <input type="checkbox" id="checkbox" name="newsletter">
+    <br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Google Maps Embed -->
+  <h2>Our Location:</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.057836500071!2d-73.96828558422399!3d40.661302579666585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1b5406b4d7%3A0x9b02e73a7b0e987f!2sProspect+Park%2C+Brooklyn%2C+NY!5e0!3m2!1sen!2sus!4v1616602879287!5m2!1sen!2sus"
+    width="100%"
+    height="400px"
+    frameborder="1"
+    allowfullscreen=""
+    aria-hidden="false"
+    tabindex="0">
+  </iframe>
+
+</body>
 </html>
